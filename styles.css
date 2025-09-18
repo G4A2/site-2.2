@@ -1,1 +1,81 @@
+/* Importação de fontes do Google Fonts para um estilo urbano */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/* Variáveis de cor baseadas no estilo do Eminem: escuro, cinza e um toque de cor */
+:root {
+    --cinza-escuro: #2C3E50;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza-claro: #ECF0F1;
+    
+    /* Cores para o modo de alto contraste */
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #FFD700;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+header {
+    background-color: var(--preto);
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+/* Estilo da barra de navegação */
+.nav-link {
+    color: var(--branco);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #C0C0C0; /* Cinza claro no hover */
+}
+
+/* Seção principal com um fundo urbano */
+.inicio-fundo {
+    background-image: url('http://googleusercontent.com/image_collection/image_retrieval/6933636766367089726_0'); /* Nova imagem de fundo para o tema do Eminem */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7); /* Adiciona um efeito de vinheta */
+}
+
+/* Remove o posicionamento absoluto da imagem de início para um layout mais flexível */
+.img-inicio {
+    position: static;
+    max-width: 100%;
+    height: auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.botao-inicio {
+    background-color: var(--preto);
+    border-radius: 30px;
+    border: 2px solid var(--branco);
+    width: 14em;
+    height: 3em;
+    align-content: center;
+    color: var(--branco);
+}
+
+.display-
