@@ -78,4 +78,5 @@ section {
     color: var(--branco);
 }
 
-.display-
+.display-4 {
+    text-shadow: none; /* Remove a sombra do texto que não se encaixa no novo
